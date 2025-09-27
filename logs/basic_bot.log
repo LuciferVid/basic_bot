@@ -1,0 +1,90 @@
+2025-09-27 13:03:05,678 | INFO | BasicBot | BasicBot initialized (Testnet base: https://testnet.binancefuture.com)
+2025-09-27 13:03:05,678 | INFO | BasicBot | Placing order: BTCUSDT BUY MARKET qty=0.001 price=None stop=None
+2025-09-27 13:03:05,678 | DEBUG | BasicBot | POST https://testnet.binancefuture.com/fapi/v1/order ? symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&recvWindow=5000&timestamp=1758958385678
+2025-09-27 13:03:05,946 | DEBUG | BasicBot | Response status: 500
+2025-09-27 13:03:05,946 | ERROR | BasicBot | API error: {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:05,946 | ERROR | BasicBot | Failed to place order: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+Traceback (most recent call last):
+  File "/Users/vid/Desktop/python project/script.py", line 222, in main
+    result = bot.place_order(
+        symbol=args.symbol,
+    ...<7 lines>...
+        close_position=args.close_position
+    )
+  File "/Users/vid/Desktop/python project/script.py", line 177, in place_order
+    response = _post_signed(self.api_key, self.api_secret, ORDER_ENDPOINT, params)
+  File "/Users/vid/Desktop/python project/script.py", line 96, in _post_signed
+    raise Exception(f"API response error: HTTP {resp.status_code} - {j}")
+Exception: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:51,281 | INFO | BasicBot | BasicBot initialized (Testnet base: https://testnet.binancefuture.com)
+2025-09-27 13:03:51,281 | INFO | BasicBot | Placing order: BTCUSDT BUY MARKET qty=0.001 price=None stop=None
+2025-09-27 13:03:51,281 | DEBUG | BasicBot | POST https://testnet.binancefuture.com/fapi/v1/order ? symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&recvWindow=5000&timestamp=1758958431281
+2025-09-27 13:03:51,496 | DEBUG | BasicBot | Response status: 500
+2025-09-27 13:03:51,497 | ERROR | BasicBot | API error: {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:51,497 | ERROR | BasicBot | Failed to place order: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+Traceback (most recent call last):
+  File "/Users/vid/Desktop/python project/script.py", line 222, in main
+    result = bot.place_order(
+        symbol=args.symbol,
+    ...<7 lines>...
+        close_position=args.close_position
+    )
+  File "/Users/vid/Desktop/python project/script.py", line 177, in place_order
+    response = _post_signed(self.api_key, self.api_secret, ORDER_ENDPOINT, params)
+  File "/Users/vid/Desktop/python project/script.py", line 96, in _post_signed
+    raise Exception(f"API response error: HTTP {resp.status_code} - {j}")
+Exception: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:53,042 | INFO | BasicBot | BasicBot initialized (Testnet base: https://testnet.binancefuture.com)
+2025-09-27 13:03:53,042 | INFO | BasicBot | Placing order: BTCUSDT BUY MARKET qty=0.001 price=None stop=None
+2025-09-27 13:03:53,042 | DEBUG | BasicBot | POST https://testnet.binancefuture.com/fapi/v1/order ? symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&recvWindow=5000&timestamp=1758958433042
+2025-09-27 13:03:53,253 | DEBUG | BasicBot | Response status: 500
+2025-09-27 13:03:53,254 | ERROR | BasicBot | API error: {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:53,254 | ERROR | BasicBot | Failed to place order: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+Traceback (most recent call last):
+  File "/Users/vid/Desktop/python project/script.py", line 222, in main
+    result = bot.place_order(
+        symbol=args.symbol,
+    ...<7 lines>...
+        close_position=args.close_position
+    )
+  File "/Users/vid/Desktop/python project/script.py", line 177, in place_order
+    response = _post_signed(self.api_key, self.api_secret, ORDER_ENDPOINT, params)
+  File "/Users/vid/Desktop/python project/script.py", line 96, in _post_signed
+    raise Exception(f"API response error: HTTP {resp.status_code} - {j}")
+Exception: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:54,131 | INFO | BasicBot | BasicBot initialized (Testnet base: https://testnet.binancefuture.com)
+2025-09-27 13:03:54,131 | INFO | BasicBot | Placing order: BTCUSDT BUY MARKET qty=0.001 price=None stop=None
+2025-09-27 13:03:54,131 | DEBUG | BasicBot | POST https://testnet.binancefuture.com/fapi/v1/order ? symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&recvWindow=5000&timestamp=1758958434131
+2025-09-27 13:03:54,415 | DEBUG | BasicBot | Response status: 500
+2025-09-27 13:03:54,415 | ERROR | BasicBot | API error: {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:54,416 | ERROR | BasicBot | Failed to place order: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+Traceback (most recent call last):
+  File "/Users/vid/Desktop/python project/script.py", line 222, in main
+    result = bot.place_order(
+        symbol=args.symbol,
+    ...<7 lines>...
+        close_position=args.close_position
+    )
+  File "/Users/vid/Desktop/python project/script.py", line 177, in place_order
+    response = _post_signed(self.api_key, self.api_secret, ORDER_ENDPOINT, params)
+  File "/Users/vid/Desktop/python project/script.py", line 96, in _post_signed
+    raise Exception(f"API response error: HTTP {resp.status_code} - {j}")
+Exception: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:55,075 | INFO | BasicBot | BasicBot initialized (Testnet base: https://testnet.binancefuture.com)
+2025-09-27 13:03:55,075 | INFO | BasicBot | Placing order: BTCUSDT BUY MARKET qty=0.001 price=None stop=None
+2025-09-27 13:03:55,075 | DEBUG | BasicBot | POST https://testnet.binancefuture.com/fapi/v1/order ? symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.001&recvWindow=5000&timestamp=1758958435075
+2025-09-27 13:03:55,309 | DEBUG | BasicBot | Response status: 500
+2025-09-27 13:03:55,309 | ERROR | BasicBot | API error: {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+2025-09-27 13:03:55,310 | ERROR | BasicBot | Failed to place order: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
+Traceback (most recent call last):
+  File "/Users/vid/Desktop/python project/script.py", line 222, in main
+    result = bot.place_order(
+        symbol=args.symbol,
+    ...<7 lines>...
+        close_position=args.close_position
+    )
+  File "/Users/vid/Desktop/python project/script.py", line 177, in place_order
+    response = _post_signed(self.api_key, self.api_secret, ORDER_ENDPOINT, params)
+  File "/Users/vid/Desktop/python project/script.py", line 96, in _post_signed
+    raise Exception(f"API response error: HTTP {resp.status_code} - {j}")
+Exception: API response error: HTTP 500 - {'code': -1000, 'msg': 'An unknown error occurred while processing the request.'}
